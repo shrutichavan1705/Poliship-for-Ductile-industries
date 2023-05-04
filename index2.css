@@ -1,0 +1,115 @@
+*{
+    scroll-behavior: smooth;
+}
+
+#card{
+    display: flex;
+    flex-direction: row;
+    margin-top:100px;
+    margin-bottom: 100px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px;
+    font-style: italic;
+    font-size: large;
+}
+
+.col-half-offset{
+    margin-left:3.166666667%
+}
+.card{
+    /* margin-right: 10px; */
+    margin-bottom: 20px;
+    background-color:#dddddd3b;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.card-img-top{
+    margin-top: 5px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+ body{
+	background-image: url('images/bgrnd4\ -\ Copy.jpg');
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
+	} 
+
+
+th{
+    color: rgb(195, 237, 237);
+    font-size:larger;
+
+}
+tr{
+    font-size: large;
+}
+
+#welcome_sec{
+    margin-top: 50px;
+    padding: 20px 10px 20px 10px;
+    width: 85%;
+    height: auto;
+    color: #fff;
+    font-style: italic;
+    background-color: #dddddd3b;
+    border-radius: 10px;
+}
+
+#scrollbtn,h2{
+    margin: 20px 0px 20px 0px;
+}
+
+p{
+    margin: 20px 0px 20px 0px;
+    font-size: large;
+}
+
+.table{
+    margin-top: 40px;
+    margin-bottom: 70px;
+    color: #fff;
+    background-color: rgba(52, 44, 44, 0.418);
+    border-radius: 10px;
+} 
+
+#table_pvc,#table_pp,#table_ldep,#table_hdep,#table_pet{
+    background-color: #ffffff50;
+    float: right;
+    width: 60%;
+    padding: 10px 10px 10px 10px;
+    margin:20px 20px 20px 0px ;
+    border-radius: 10px;
+}
+
+#topbtn{
+    float: right;
+    padding: 5px 10px 5px 10px ;
+    background-color: #ffffff92;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0px 20px 10px 0px;
+}
+
+#info_section{
+    margin: 20px 20px 10px 20px;
+    padding: 20px 10px 20px 10px;
+    border-radius: 10px;
+    float: left;
+    width: 35%;
+    font-size: large;
+    color: white;
+    font-style: italic;
+    font-weight:500;
+    background-color: #241f1f66;
+}
+
+#symbol{
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
